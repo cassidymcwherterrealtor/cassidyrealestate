@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cassidymcwhertterrealtor.github.io/sitemap.xml
