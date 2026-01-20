@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div class="container">
+      <header>
+        <nav class="nav">
+          <a class="brand" href="/">{{ site.title }}</a>
+          <a href="/blog/">Blog</a>
+          <a href="/about/">About</a>
+          <span class="tagline">{{ site.tagline }}</span>
+        </nav>
+      </header>
+
+      <main>
+        {{ content }}
+      </main>
+
+      <footer>
+        <div>
+          © {{ site.time | date: "%Y" }} {{ site.title }} · Orlando & Central Florida
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
